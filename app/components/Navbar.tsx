@@ -8,7 +8,7 @@ export default function Navbar() {
       
       <div className="navbar-logo">
         <img
-          src="./llama1.png" // Replace with the path to your llama image
+          src="./landscape.png" // Replace with the path to your llama image
           alt="Llama"
           width="10" // Adjust the width as needed
           height="10" // Adjust the height as needed
