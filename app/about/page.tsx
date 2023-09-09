@@ -11,7 +11,7 @@ export default function About() {
 
 
       <h2>
-        <Link href="/" className='back'>Back to home</Link>
+        <Link href="/" className="fixed bottom-0 left-0 w-full bg-gray-900 text-white p-4">Back to home</Link>
       </h2>
     </>
   );

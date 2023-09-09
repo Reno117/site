@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Navbar() {
     return (
-    <nav className="nav">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-light gradient-custom">
       
       <div className="navbar-logo">
         <img

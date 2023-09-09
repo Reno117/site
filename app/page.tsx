@@ -8,19 +8,19 @@ export default function Home() {
         <Link href='/carhacks' passHref>
             <div className='container'>
               <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'>Carolina Hacks</h1>
-              <img src="./car_hacks.png" alt="logo" />
+              <img src="./car_hacks.png" alt="logo" className='object-cover transition-transform transform hover:scale-110' />
             </div>
           </Link>
         <Link href='/hackclub' passHref>
           <div className="container2">
             <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'>Hack Club Leader</h1>
-            <img src='./proj2.png' alt="logo2" width="300px" />
+            <img src='./proj2.png' alt="logo2" width="300px" className='w-9/12 object-cover transition-transform transform hover:scale-110' />
           </div>
         </Link>
         <Link href='/reactproj' passHref>
         <div className="container3">
             <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl'>Portfolio Website</h1>
-            <img src='./proj3.png' alt="logo" />
+            <img src='./proj3.png' alt="logo" className='object-cover transition-transform transform hover:scale-110' />
         </div>
         </Link>
         <div className="container4">
