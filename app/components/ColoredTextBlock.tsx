@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const ColoredTextBlock = () => {
   return (
     <div className="relative w-1/3 h-[1200px] bg-blue-500 text-white p-5 ml-20 my-10 flex justify-center items-center ">
@@ -13,6 +12,5 @@ const ColoredTextBlock = () => {
     </div>
   );
 };
-
 
 export default ColoredTextBlock;
