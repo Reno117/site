@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColoredTextBlock = () => {
+const CarhacksDescript = () => {
   return (
     <div className="justify-start relative max-w-[600px] flex-grow mb-20 bg-[#294b5a] text-white p-5 my-0 flex">
      <div className="max-h-[100%] max-w-[100%] overflow-auto">
@@ -17,5 +17,5 @@ const ColoredTextBlock = () => {
   );
 };
 
-export default ColoredTextBlock;
+export default CarhacksDescript;
 

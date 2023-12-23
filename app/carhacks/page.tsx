@@ -1,9 +1,8 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import ColoredTextBlock from '../components/ColoredTextBlock';
-import { UIEventHandler, useState } from 'react';
-
+import Link from "next/link";
+import ColoredTextBlock from "../components/ColoredTextBlock";
+import { UIEventHandler, useState } from "react";
 
 export default function carhacks() {
   // const [position, setPosition] = useState(0);
@@ -12,12 +11,19 @@ export default function carhacks() {
   //   setPosition(pi)
   // }
   return (
-    <div>
+    <div className="w-full">
       <h1>This is my experience hosting my local hackathon, Carolina Hacks!</h1>
-      <ColoredTextBlock />
-      
+      <div className="justify-start flex flex-grow mx-4 ">
+        <ColoredTextBlock />
+      </div>
+
       <h2>
-        <Link href="/" className="fixed bottom-0 left-0 w-full bg-gray-900 text-white p-2">Back to home</Link>
+        <Link
+          href="/"
+          className="fixed bottom-0 left-0 w-full bg-gray-900 text-white p-2"
+        >
+          Back to home
+        </Link>
       </h2>
     </div>
   );
