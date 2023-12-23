@@ -2,9 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import ColoredTextBlock from "./components/ColoredTextBlock";
-import CarhacksDescript from "./components/carhacksDescript";
 import PortfolioDescript from "./components/PortfolioDescript";
 import ClemsonCourtsDescript from "./components/ClemsonCourtsDescript";
+import CarHacksDescript from "./components/CarHacksDescript";
 
 export default function Home() {
   const scrollToSection = (sectionId: string, event: React.MouseEvent) => {
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <CarhacksDescript />
+          <CarHacksDescript />
         </div>
 
         <div className="grid-cols-2 grid">
