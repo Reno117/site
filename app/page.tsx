@@ -18,7 +18,7 @@ export default function Home() {
         style={{ backgroundImage: 'url("/file-u4JUJf8Pjjecc5wl3D1xcq9C.png")' }}
       >
         <h1 className="text-7xl text-black mb-8 text-center">
-          Parker Estes's Portfolio Website
+          Parker Estes Portfolio Website
         </h1>
         <a
           href="#"
