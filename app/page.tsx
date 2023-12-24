@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import ColoredTextBlock from "./components/ColoredTextBlock";
 import CarHacksDescript from "./components/CarHacksDescript";
 import PortfolioDescript from "./components/PortfolioDescript";
@@ -39,7 +39,8 @@ export default function Home() {
       >
         <div>
           <h1 className="text-3xl font-bold mb-4 text-center">About Me</h1>
-          <ColoredTextBlock />
+          <div className="flex justify-center"><ColoredTextBlock /></div>
+          
         </div>
         <div>
           <h1 className="text-3xl font-bold mb-4 text-center">My Skills</h1>
