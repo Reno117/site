@@ -1,8 +1,16 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
+  const scrollToSection = (sectionId: string, event: React.MouseEvent) => {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-light gradient-custom sticky top-0 left-0 right-0 h-16 z-[100]">
       <div className="flex items-center gap-4">
@@ -17,7 +25,13 @@ export default function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <a
+              href="#"
+              className=""
+              onClick={(event) => scrollToSection("section2", event)}
+            >
+              About
+            </a>
           </li>
         </ul>
       </div>

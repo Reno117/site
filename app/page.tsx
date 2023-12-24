@@ -2,6 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import ColoredTextBlock from "./components/ColoredTextBlock";
+import CarHacksDescript from "./components/CarHacksDescript";
+import PortfolioDescript from "./components/PortfolioDescript";
+import ClemsonCourtsDescript from "./components/ClemsonCourtsDescript";
 
 export default function Home() {
   const scrollToSection = (sectionId: string, event: React.MouseEvent) => {
@@ -65,7 +68,7 @@ export default function Home() {
           </h1>
         </div>
         <div className="mt-2 ml-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="/carhacks" passHref>
+          {/* <Link href="/carhacks" passHref> */}
             <div className="flex justify-center">
               {/* Wrap both components in a flex container */}
               <div className="ml-4">
@@ -76,8 +79,8 @@ export default function Home() {
                 />
               </div>
             </div>
-          </Link>
-          <ColoredTextBlock />
+          {/* </Link> */}
+          <CarHacksDescript />
         </div>
 
         <div className="grid-cols-2 grid">
@@ -86,7 +89,7 @@ export default function Home() {
           </h1>
         </div>
         <div className="mt-2 ml-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="/carhacks" passHref>
+          {/* <Link href="/carhacks" passHref> */}
             <div className="flex justify-center">
               {/* Wrap both components in a flex container */}
               <div className="ml-4 overflow-hidden">
@@ -97,8 +100,8 @@ export default function Home() {
                 />
               </div>
             </div>
-          </Link>
-          <ColoredTextBlock/>
+          {/* </Link> */}
+          <PortfolioDescript/>
         </div>
 
         <div className="grid-cols-2 grid">
@@ -107,7 +110,7 @@ export default function Home() {
           </h1>
         </div>
         <div className="mt-2 ml-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="/carhacks" passHref>
+          {/* <Link href="/carhacks" passHref> */}
             <div className="flex justify-center">
               {/* Wrap both components in a flex container */}
               <div className="ml-4 overflow-hidden">
@@ -118,8 +121,8 @@ export default function Home() {
                 />
               </div>
             </div>
-          </Link>
-          <ColoredTextBlock />
+          {/* </Link> */}
+          <ClemsonCourtsDescript />
         </div>
       </div>
     </div>
