@@ -2,7 +2,7 @@ import React from "react";
 
 const CarHacksDescript = () => {
   return (
-    <div className="justify-start relative max-w-[600px] flex-grow mb-20 bg-[#294b5a] text-white p-5 my-0 flex">
+    <div className="items-center relative max-w-[600px] flex-grow bg-[#294b5a] text-white p-5 my-0 flex">
       <div className="max-h-[100%] max-w-[100%] overflow-auto">
         <p>
           Organizing Carolina Hacks, a student-led high school hackathon, was a

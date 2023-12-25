@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-light gradient-custom sticky top-0 left-0 right-0 h-16 z-[100]">
       <div className="flex items-center gap-4">
         <div className="rounded-full object-contain overflow-hidden h-[40px]">
-          <Image src="/landscape3.png" alt="parkers" width={40} height={40} />
+          <Image src="/portrait3.jpg" alt="parkers" width={40} height={40} />
         </div>
         <p className="text-light font-sans">Parker Estes</p>
       </div>

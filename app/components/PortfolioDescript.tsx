@@ -2,8 +2,8 @@ import React from "react";
 
 const PortfolioDescript = () => {
   return (
-    <div className="justify-start relative max-w-[600px] flex-grow mb-20 bg-[#294b5a] text-white p-5 my-0 flex">
-     <div className="max-h-[100%] max-w-[100%] overflow-auto">
+    <div className="items-center relative max-w-[600px] flex-grow bg-[#294b5a] text-white p-5 my-0 flex">
+      <div className="max-h-[100%] max-w-[100%] overflow-auto">
       <p>
   Crafting my portfolio website using Next.js and React marked a pivotal step into the world of software
    development and website design. This project served as a hands-on introduction to these cutting-edge

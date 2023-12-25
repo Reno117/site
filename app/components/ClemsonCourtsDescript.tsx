@@ -2,8 +2,8 @@ import React from "react";
 
 const ClemsonCourtsDescript = () => {
   return (
-    <div className="justify-start relative max-w-[600px] flex-grow mb-20 bg-[#294b5a] text-white p-5 my-0 flex">
-     <div className="max-h-[100%] max-w-[100%] overflow-auto">
+    <div className="items-center relative max-w-[600px] flex-grow bg-[#294b5a] text-white p-5 my-0 flex">
+      <div className="max-h-[100%] max-w-[100%] overflow-auto">
       
 <p>
   While still in development, &quot;Clemson Courts&quot; is my first step into full-stack coding, 

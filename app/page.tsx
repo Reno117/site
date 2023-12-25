@@ -17,19 +17,19 @@ export default function Home() {
   return (
     <div>
       <div
-        className="h-screen bg-cover bg-center relative flex flex-col items-center justify-center"
+        className="min-h-screen bg-cover bg-center relative flex flex-col items-center justify-center"
         style={{ backgroundImage: 'url("/file-u4JUJf8Pjjecc5wl3D1xcq9C.png")' }}
       >
-        <h1 className="text-7xl text-black mb-8 text-center">
+        <h1 className="text-7xl text-white mb-8 text-center bg-black px-6 py-4 rounded bg-opacity-75">
           Parker Estes Portfolio Website
         </h1>
-        <a
-          href="#"
-          className="text-5xl font-bold py-16 absolute bottom-0 mb-8"
+        {/* b58f75 */}
+        <button
+          className="text-3xl text-white font-bold py-4 absolute bottom-32 btn btn-lg bg-[#2f5261]"
           onClick={(event) => scrollToSection("section3", event)}
         >
           Go to Projects
-        </a>
+        </button>
       </div>
 
       {/* Section 2: Content */}
@@ -39,8 +39,9 @@ export default function Home() {
       >
         <div>
           <h1 className="text-3xl font-bold mb-4 text-center">About Me</h1>
-          <div className="flex justify-center"><ColoredTextBlock /></div>
-          
+          <div className="flex justify-center">
+            <ColoredTextBlock />
+          </div>
         </div>
         <div>
           <h1 className="text-3xl font-bold mb-4 text-center">My Skills</h1>
@@ -59,71 +60,65 @@ export default function Home() {
       </div>
 
       {/* Section 3: More Content */}
+
       <div id="section3" className="bg-[#FFF8F8] p-8">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Projects</h2>
+        <div className="text-center mx-auto">
+          <h2 className="text-3xl font-bold mb-20">Projects</h2>
         </div>
-        <div className="grid-cols-2 grid">
-          <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-            Carolina Hacks
-          </h1>
+        <div className="flex justify-center">
+        <div className="border-[#000000] border-b-[2px] w-14 " />
         </div>
-        <div className="mt-2 ml-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* <Link href="/carhacks" passHref> */}
-            <div className="flex justify-center">
-              {/* Wrap both components in a flex container */}
-              <div className="ml-4">
-                <img
-                  src="./car_hacks.png"
-                  alt="logo"
-                  className="object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
+          
+
+        <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          Carolina Hacks
+        </h1>
+
+        <div className="mb-10 flex justify-center">
+          <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
+            <div className="flex-grow">
+            <img 
+              src="./car_hacks.png"
+              alt="logo"
+              className="w-full object-cover transition-transform transform hover:scale-110"
+            />
             </div>
-          {/* </Link> */}
-          <CarHacksDescript />
+            <CarHacksDescript />
+          </div>
         </div>
 
-        <div className="grid-cols-2 grid">
-          <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-            Portfolio Website
-          </h1>
-        </div>
-        <div className="mt-2 ml-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* <Link href="/carhacks" passHref> */}
-            <div className="flex justify-center">
-              {/* Wrap both components in a flex container */}
-              <div className="ml-4 overflow-hidden">
-                <img
-                  src="./nexjts-react.png"
-                  alt="logo"
-                  className="object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
+        <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          Portfolio Website
+        </h1>
+
+        <div className="mb-10 flex justify-center">
+          <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
+            <div className="flex-grow">
+            <img 
+              src="./nexjts-react.png"
+              alt="logo"
+              className="w-full object-cover transition-transform transform hover:scale-110"
+            />
             </div>
-          {/* </Link> */}
-          <PortfolioDescript/>
+            <PortfolioDescript />
+          </div>
         </div>
 
-        <div className="grid-cols-2 grid">
-          <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-            Clemson Courts
-          </h1>
-        </div>
-        <div className="mt-2 ml-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* <Link href="/carhacks" passHref> */}
-            <div className="flex justify-center">
-              {/* Wrap both components in a flex container */}
-              <div className="ml-4 overflow-hidden">
-                <img
-                  src="./courts.jpg_large"
-                  alt="logo"
-                  className="object-cover transition-transform transform hover:scale-110"
-                />
-              </div>
+        <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          Clemson Courts
+        </h1>
+
+        <div className="mb-10 flex justify-center">
+          <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
+            <div className="flex-grow">
+            <img 
+              src="./courts.jpg_large"
+              alt="logo"
+              className="w-full object-cover transition-transform transform hover:scale-110"
+            />
             </div>
-          {/* </Link> */}
-          <ClemsonCourtsDescript />
+            <ClemsonCourtsDescript />
+          </div>
         </div>
       </div>
     </div>
