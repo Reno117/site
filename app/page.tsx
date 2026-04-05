@@ -2,6 +2,7 @@
 // import Image from "next/image";
 // import Link from "next/link";
 import ColoredTextBlock from "./components/ColoredTextBlock";
+import AnamDescript from "./components/anamDescript";
 import CarHacksDescript from "./components/CarHacksDescript";
 import PortfolioDescript from "./components/PortfolioDescript";
 import ClemsonCourtsDescript from "./components/ClemsonCourtsDescript";
@@ -70,6 +71,29 @@ export default function Home() {
           <div className="border-[#000000] border-b-[2px] w-14 " />
         </div>
 
+      <a href="https://www.anamnesis.pro/" target="_blank">
+        <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          Anamnesis
+         
+        </h1>
+      </a>
+
+        <div className="mb-10 flex justify-center">
+          <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
+            <div className="flex-grow">
+              
+              <a href="https://www.anamnesis.pro/" target="_blank">
+                <img
+                  src="./anamPage.png"
+                  alt="logo"
+                  className="w-full object-cover transition-transform transform hover:scale-110"
+                />
+                </a>
+              
+            </div>
+            <AnamDescript />
+          </div>
+        </div>
         <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           Clemson Courts
         </h1>
@@ -81,7 +105,7 @@ export default function Home() {
                 <img
                   src="./courts.jpg_large"
                   alt="logo"
-                  className="w-full object-cover transition-transform transform hover:scale-110"
+                  className="w-full object-cover transition-transform transform"
                 />
               
             </div>
@@ -99,7 +123,7 @@ export default function Home() {
               <img
                 src="./car_hacks.png"
                 alt="logo"
-                className="w-full object-cover transition-transform transform hover:scale-110"
+                className="w-full object-cover transition-transform transform"
               />
             </div>
             <CarHacksDescript />
@@ -116,7 +140,7 @@ export default function Home() {
               <img
                 src="./nexjts-react.png"
                 alt="logo"
-                className="w-full object-cover transition-transform transform hover:scale-110"
+                className="w-full object-cover transition-transform transform"
               />
             </div>
             <PortfolioDescript />
