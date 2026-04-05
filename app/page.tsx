@@ -2,7 +2,7 @@
 // import Image from "next/image";
 // import Link from "next/link";
 import ColoredTextBlock from "./components/ColoredTextBlock";
-import AnamDescript from "./components/anamDescript";
+import AnamDescript from "./components/AnamnesisDescript";
 import CarHacksDescript from "./components/CarHacksDescript";
 import PortfolioDescript from "./components/PortfolioDescript";
 import ClemsonCourtsDescript from "./components/ClemsonCourtsDescript";
