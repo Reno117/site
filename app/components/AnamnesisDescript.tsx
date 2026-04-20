@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubButton from "./GitHubButton";
 
 const AnamDescript = () => {
   return (
@@ -14,6 +15,7 @@ because my friends are able to use it and learn more Scripture!
 
 
       </div>
+          <GitHubButton href="https://github.com/Reno117/scriptureMemory" />
     </div>
   );
 };

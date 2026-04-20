@@ -6,6 +6,7 @@ import AnamDescript from "./components/AnamnesisDescript";
 import CarHacksDescript from "./components/CarHacksDescript";
 import PortfolioDescript from "./components/PortfolioDescript";
 import ClemsonCourtsDescript from "./components/ClemsonCourtsDescript";
+import GitHubButton from "./components/GitHubButton";
 
 
 export default function Home() {

@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubButton from "./GitHubButton";
 
 const ClemsonCourtsDescript = () => {
   return (
@@ -19,6 +20,7 @@ const ClemsonCourtsDescript = () => {
 
 
       </div>
+          <GitHubButton href="https://github.com/Reno117/ClemsonCourtsPt3" />
     </div>
   );
 };
