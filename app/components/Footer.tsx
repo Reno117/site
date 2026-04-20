@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         borderTop: "1px solid #ccc",
       }}
     >
-      <p className="text-white text-end">Parker Estes 2023</p>
+      <p className="text-white text-end">Parker Estes {new Date().getFullYear()}</p>
       <p className="text-white text-end">Powered by Next.js and React</p>
       {/* Add more footer content as needed */}
     </footer>
