@@ -9,7 +9,7 @@ const AnamDescript = () => {
 <p>
 Anamnesis is a full-stack Scripture memory project for both web and mobile.
 I am using React Native for a native and crisp feel on mobile, and convex for a super fast
-experience because of its sync engine. This has been a fun project so far and is made even more awesoem
+experience because of its sync engine. This has been a fun project so far and is made even more awesome 
 because my friends are able to use it and learn more Scripture!
 </p>
 
