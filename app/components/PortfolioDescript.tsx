@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubButton from "./GitHubButton";
 
 const PortfolioDescript = () => {
   return (
@@ -17,11 +18,10 @@ const PortfolioDescript = () => {
 
 
 
-
-
 </p>
 
       </div>
+          <GitHubButton href="https://github.com/Reno117/site" />
     </div>
   );
 };

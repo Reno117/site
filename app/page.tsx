@@ -7,6 +7,7 @@ import CarHacksDescript from "./components/CarHacksDescript";
 import PortfolioDescript from "./components/PortfolioDescript";
 import ClemsonCourtsDescript from "./components/ClemsonCourtsDescript";
 import GitHubButton from "./components/GitHubButton";
+import BattleshipDescript from "./components/battleshipDescipt";
 
 
 export default function Home() {
@@ -95,6 +96,36 @@ export default function Home() {
             <AnamDescript />
           </div>
         </div>
+
+
+
+      <a href="https://battleship.koon.us/" target="_blank">
+        <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+         Battleship 
+         
+        </h1>
+      </a>
+
+        <div className="mb-10 flex justify-center">
+          <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
+            <div className="flex-grow">
+              
+              <a href="https://battleship.koon.us/" target="_blank">
+                <img
+                  src="./battleshipScreenshot.png"
+                  alt="logo"
+                  className="w-full object-cover transition-transform transform hover:scale-110"
+                />
+                </a>
+              
+            </div>
+            <BattleshipDescript/>
+          </div>
+        </div>
+
+
+
+
         <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           Clemson Courts
         </h1>
@@ -103,18 +134,20 @@ export default function Home() {
           <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
             <div className="flex-grow">
               
+              <a href="https://at-the-court-nextjs-git-main-reno117.vercel.app/" target='_blank'>
                 <img
                   src="./courts.jpg_large"
                   alt="logo"
-                  className="w-full object-cover transition-transform transform"
+                  className="w-full object-cover transition-transform transform hover:scale-110"
                 />
+                </a>
               
             </div>
             <ClemsonCourtsDescript />
           </div>
         </div>
 
-        <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+        {/* <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           Carolina Hacks
         </h1>
 
@@ -129,7 +162,7 @@ export default function Home() {
             </div>
             <CarHacksDescript />
           </div>
-        </div>
+        </div> */}
 
         <h1 className="text-3xl mb-2 text-center ml-4 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           Portfolio Website
@@ -138,11 +171,15 @@ export default function Home() {
         <div className="mb-10 flex justify-center">
           <div className="items-center mt-2 mb-8 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[1200px]">
             <div className="flex-grow">
+
+              <a href='https://parker-estes.vercel.app/' target='_blank'>
               <img
                 src="./nexjts-react.png"
                 alt="logo"
-                className="w-full object-cover transition-transform transform"
+                className="w-full object-cover transition-transform transform hover:scale-110"
               />
+              
+              </a>
             </div>
             <PortfolioDescript />
           </div>
